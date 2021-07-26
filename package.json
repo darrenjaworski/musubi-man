@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "browser-sync start -s -f .",
+    "start": "browser-sync start -s -w",
     "build": "html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css --minify-js -o dist/index.html index.html"
   },
   "keywords": [],
