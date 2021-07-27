@@ -9,17 +9,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Chango"
-    />
     <style>
+      @font-face {
+        font-family: "Frito Vandito";
+        src: url(FritoVandito.otf);
+      }
       body,
       html {
         height: 100%;
         width: 100%;
-        background-color: #edaa39;
-        font-family: Chango, serif;
+        background-color: #eda93a;
+        font-family: "Frito Vandito", serif;
       }
       .ah {
         position: absolute;
@@ -64,28 +64,30 @@
       }
       h2 {
         text-transform: uppercase;
-        font-size: 3rem;
+        font-size: 3.5rem;
         margin: 0;
+        line-height: 5rem;
       }
       .phone,
       h3 {
-        font-size: 2.2rem;
+        font-size: 2.4rem;
+        line-height: 4rem;
         margin: 0;
       }
       .phone {
         padding: 12px;
       }
       a:hover {
-        color: #d85636;
+        color: #e8462d;
       }
       a:hover svg {
-        fill: #d85636;
+        fill: #e8462d;
       }
       .no-wrap {
         white-space: nowrap;
       }
       #musubi-man-logo {
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
       }
       @media (max-width: 1010px) {
         .no-wrap {
@@ -93,10 +95,12 @@
         }
         h2 {
           font-size: 2.6rem;
+          line-height: 3.5rem;
         }
         .phone,
         h3 {
           font-size: 1.8rem;
+          line-height: 3rem;
         }
         .center {
           width: 80%;
